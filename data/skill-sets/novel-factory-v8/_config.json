@@ -1,0 +1,64 @@
+{
+  "id": "novel-factory-v8",
+  "name": "小说工厂 v8.0",
+  "description": "工业级自动化小说创作Agent工作流系统。20个核心技能 + 9个Python工具，涵盖从项目初始化到番茄发布的完整流水线。",
+  "version": "8.0",
+  "author": "小说工厂",
+  "createdAt": "2026-06-02",
+  "features": [
+    "L0-L5 六层工作流 + Gate门禁系统",
+    "11维审核引擎 + 反AI规则系统",
+    "情感引擎（12种叙事手法）",
+    "9维真相档案追踪系统",
+    "竞品分析与风格进化",
+    "Runtime Spec事件溯源架构"
+  ],
+  "workflow": {
+    "L0": "项目初始化 - 三层问答+命名+创作宪法",
+    "L1": "创意引擎 - 并行创意策划书",
+    "L1.5": "竞品研究 - 搜索分析同题材热书",
+    "L2": "世界工厂 - 人物/世界/势力设定",
+    "L3": "大纲农场 - 全书结构+双轨细纲",
+    "L4": "正文流水线 - 状态机+独立审核",
+    "L5": "番茄发布 - 发布包生成"
+  },
+  "gates": {
+    "Gate_B": "创意审核≥6分",
+    "Gate_S": "设定审核≥6分",
+    "Gate_A": "六维品控全部通过",
+    "Gate_C": "前章status=passed"
+  },
+  "skills": [
+    "一键小说工厂",
+    "正文流水线",
+    "写作铁律",
+    "反AI规则",
+    "审核引擎",
+    "创作宪法",
+    "命名引擎",
+    "情感引擎",
+    "小说追踪",
+    "品控引擎",
+    "世界架构师",
+    "开篇模块",
+    "竞品分析",
+    "设计审核",
+    "番茄发布",
+    "朱雀诊断",
+    "Runtime执行器",
+    "Runtime_OS集成",
+    "gunkai-perspective",
+    "wuzei-perspective"
+  ],
+  "tools": [
+    "gate-checker.py",
+    "dashboard-generator.py",
+    "health-check.py",
+    "token-tracker.py",
+    "novel-research-analyzer.py",
+    "chapter-title-analyzer.py",
+    "memory-tracker.py",
+    "artifact_verifier.py",
+    "barrier_gate.py"
+  ]
+}

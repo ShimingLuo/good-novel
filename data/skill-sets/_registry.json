@@ -1,4 +1,12 @@
 {
   "activeSetId": "default",
-  "sets": []
+  "sets": [
+    {
+      "id": "novel-factory-v8",
+      "name": "小说工厂 v8.0",
+      "description": "工业级自动化小说创作Agent工作流系统。20个核心技能 + 9个Python工具，涵盖从项目初始化到番茄发布的完整流水线。",
+      "createdAt": "2026-06-02",
+      "builtin": false
+    }
+  ]
 }
